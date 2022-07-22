@@ -1,0 +1,167 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: url(abs-1850926_1920.jpg);
+    color: white;
+    /* background-blend-mode: darken; */
+    /* background-color: white; */
+    font-family: 'Baloo bhai', cursive;
+    /* position: absolute; */
+    /* Background image is centered vertically and horizontally at all times */
+/* background-position: center center; */
+
+/* Background image doesn't tile */
+background-repeat: no-repeat;
+
+/* Background image is fixed in the viewport so that it doesn't move when
+the content's height is greater than the image's height */
+
+/* background-attachment:fixed; */
+/* background-position: 50% 70%; */
+/* background-attachment: fixed; */
+
+/* This is what makes the background image rescale based
+on the container's size */
+background-size: cover;
+
+/* Set a background color that will be displayed
+while the background image is loading */
+background-color: #464646;
+}
+
+.left {
+    display: inline-block;
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 60px;
+    /*50*/
+    top: 20px;
+}
+
+.left img {
+    width: 80px;
+    filter: invert(100%);
+    /* object-fit:fill; */
+}
+
+.left div {
+    text-align: center;
+    /* color: aliceblue; */
+    /* background-color: black; */
+    /* text-transform: capitalize; */
+    line-height: 19px;
+    /* 15px */
+    font-size: 26px;
+    /* 20 */
+}
+
+.center {
+    /* display: inline-block; */
+    /* border: 2px solid red; */
+    display: block;
+    width: 50%;
+    /* 47 */
+    margin: 29px auto;
+    /* 20 */
+}
+
+.right {
+    /* display: block; */
+    position: absolute;
+    right: 34px;
+    top: 43px;
+    /* 29 */
+    display: inline-block;
+    /* border: 2px solid rgb(157, 179, 32) */
+}
+
+.navbar {
+    display: inline-block;
+    
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 25px;
+    /* 18 */
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: rgb(35, 211, 29);
+    /* padding: 34px 23px; */
+}
+
+.btn {
+    margin: 0px 9px;
+    color: white;
+    background-color: black;
+    padding: 4px 14px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: 'Baloo Bhai', cursive;
+
+}
+
+.btn:hover {
+    background-color: rgb(45, 35, 35);
+}
+
+.container {
+    border: 2px solid red;
+}
+
+.container {
+    display: block;
+    border: 2px solid white;
+
+    margin: 100px 60px;
+    padding: 75px;
+    width: 20%;
+    border-radius: 28px;
+    position: relative;
+    left: 59%;
+}
+
+
+
+.form-group input {
+    font-family: 'Baloo Bhai', cursive;
+    text-align: center;
+    display: inline-block;
+    width: 80%;
+    /* padding: 1px; */
+    border: 2px solid black;
+    margin: 2px auto;
+    font-size: 25px;
+    border-radius: 8px;
+}
+
+.container h1 {
+    text-align: center;
+    width: auto;
+}
+
+.container button {
+    display: flex;
+    align-items: flex-start;
+    width: 40%;
+    margin: 2px auto;
+}
+
+/* @media screen and (min-width:100px) {
+    div.container {
+      font-size: 80px;
+    }
+  } */
+  
+  /* If the screen size is 600px or less, set the font-size of <div> to 30px */
